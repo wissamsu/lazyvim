@@ -136,7 +136,7 @@ return {
 
   {
     "chrisgrieser/nvim-origami",
-    event = "VeryLazy",
+    cmd = { "Foldclose", "Foldopen" },
     opts = {
       foldtext = {
         lineCount = {
